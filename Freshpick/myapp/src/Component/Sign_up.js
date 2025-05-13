@@ -72,7 +72,7 @@ const Sign_up = () => {
                     setShow(true)
                     setsu(true)
                  //   http://192.168.56.1
-                   await fetch('http://192.168.56.1:8088/signup', {
+                   await fetch('https://freshpick.onrender.com/signup', {
                       method: 'POST',
                       headers: {
                         'Content-Type': 'application/json',

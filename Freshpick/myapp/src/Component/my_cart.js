@@ -381,7 +381,7 @@ const Cart = () => {
       return;
     }
 
-    const orderResponse = await fetch('http://localhost:8088/orders', {
+    const orderResponse = await fetch('https://freshpick.onrender.com/orders', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ amount: total }),
@@ -401,7 +401,7 @@ const Cart = () => {
       description: 'Thank you for shopping!',
       order_id: orderData.order.id,
       handler: async function (response) {
-        const verifyRes = await fetch('http://localhost:8088/verify', {
+        const verifyRes = await fetch('https://freshpick.onrender.com/verify', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(response),

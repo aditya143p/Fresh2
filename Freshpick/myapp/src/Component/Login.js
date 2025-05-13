@@ -61,7 +61,7 @@ const Login = () => {
                    
                    
                   
-                let apidata= await fetch('http://192.168.56.1:8088/login', {
+                let apidata= await fetch('https://freshpick.onrender.com/login', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',
