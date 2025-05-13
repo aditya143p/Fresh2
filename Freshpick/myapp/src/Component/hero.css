@@ -1,0 +1,48 @@
+
+
+@media only screen and (max-width: 600px) {
+    .laptop{
+        display: none;
+    }
+    .image-section{
+        height: 150px;
+    }
+    .slick-arrow
+    {
+        display: none !important;
+    }
+    .image_header
+    {
+     
+      font-size: 16px !important;
+   
+      font-weight: bolder !important;
+      /* line-height: 32px; */
+  
+    }
+  }
+  .slick-arrow
+  {
+      display: none !important;
+  }
+ 
+  .image_header
+  {
+    color: rgb(28, 28, 28);
+    font-size: 24px;
+    font-family: Okra-Medium;
+    font-weight: 600;
+    line-height: 32px;
+
+  }
+  .cupofcoffe
+  {
+    width: 600;
+    height: 110px;
+  }
+  @media only screen and (max-width: 380px) {
+    .image-section{
+      height: 100px !important;
+  }
+
+  }
